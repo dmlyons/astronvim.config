@@ -8,6 +8,9 @@ return {
       gopls = {
         settings = {
           gopls = {
+            analyses = {
+              shadow = false,
+            },
             gofumpt = false,
           },
         },
