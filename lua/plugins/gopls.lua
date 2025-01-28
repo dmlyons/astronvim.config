@@ -12,6 +12,7 @@ return {
               shadow = false,
               -- fieldalignment = true,
             },
+            buildFlags = { "-tags=!integration !build" },
             gofumpt = false,
           },
         },
