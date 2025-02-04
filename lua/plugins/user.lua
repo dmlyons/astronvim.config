@@ -1,3 +1,4 @@
+-- if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 return {
   "ray-x/go.nvim",
   dependencies = { -- optional packages
@@ -10,6 +11,6 @@ return {
   ft = { "go", "gomod" },
   build = ':lua require("go.install").update_all_sync()', -- if you need to install/update all binaries
   lsp_inlay_hints = {
-    show_parameter_hints = true,
+    show_parameter_hints = false,
   },
 }

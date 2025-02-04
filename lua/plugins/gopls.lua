@@ -14,6 +14,7 @@ return {
             },
             buildFlags = { "-tags=!integration !build" },
             gofumpt = false,
+            usePlaceholders = false,
           },
         },
       },
