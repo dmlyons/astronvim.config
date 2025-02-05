@@ -11,6 +11,8 @@ return {
   ft = { "go", "gomod" },
   build = ':lua require("go.install").update_all_sync()', -- if you need to install/update all binaries
   lsp_inlay_hints = {
+    enable = false,
     show_parameter_hints = false,
   },
+  vim.lsp.inlay_hint.enable(false),
 }
